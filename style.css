@@ -1,0 +1,67 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+#config-wrapper {
+  display: flex;
+  padding: 1rem;
+}
+
+.config {
+  padding: 1rem;
+}
+
+.label {
+  padding: 1rem;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+#config-wrapper .control button {
+  width: 1.5rem;
+}
+
+.time-display {
+  font-size: xx-large;
+}
+
+#timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+#start_stop,
+#reset {
+  width: 60px;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+footer {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
